@@ -16,6 +16,17 @@ The project includes: <br>
 
 ## Getting Started
 1. Set up Kali Linux and install Nessus. <br>
+  - Downlaoded and installed [Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) in [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+  - Signed up for [Nusses Essentials](https://www.tenable.com/products/nessus/nessus-essentials).
+    -  Opened Terminal in Kali Linux and installed Nessus using the following [guide](https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm).
+    -  Started Nessus using the command 'sudo service nessusd start'.
+    -  Did *ifconfig* to get IP of Kali Linux virtual machine.
+  - Accessed Nessus via 'https://localhost:8834'.
+    - Set up an account and activated Nessus Essentials using the activation code from signup.
 2. Deploy Metasploitable 2. <br>
+    - Downloaded and installed [Metasploitable 2] in VirtualBox.
+    - Signed in using default credentials (msfadmin/msfadmin).
+    - Did *ifconfig* to get IP of Metasploitable 2 virtual machine.
+    - Ran a ping command test to verify connection between the two devices.
 3. Perform the vulnerability scan using Nessus. <br>
 4. Review the scan results to identify potential security issues. <br>
