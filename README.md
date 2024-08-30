@@ -40,4 +40,7 @@ The project includes: <br>
     - The **fifth** scan I did was the **Active Directory Starter Scan**. I entered the IP address in the **Targets** field and nothing in the Credentials tab and ran the scan. <br>
     <br>
 4. Review the scan results to identify potential security issues. <br>
-    - The first scan from the Host Discovery scan resulted in 
+    - The first scan from the Host Discovery scan resulted in 2 Vulnerabilities. One of them was 'Nessus Scan Information' and it showed the information about the scan itself. The other one was 'Ping the remote host' which Nessus determines if a remote host is active using ARP, ICMP, TCP, or UDP pings. <br>
+    ![port](images/port.png) <br>
+    ![host](images/host.png) <br>
+    - The second scan results from the Basic Network scan that I did not include credentials to had 67 Vulnerabilities.
