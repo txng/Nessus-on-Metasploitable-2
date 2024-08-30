@@ -24,7 +24,7 @@ The project includes: <br>
   - Accessed Nessus via 'https://localhost:8834'.
     - Set up an account and activated Nessus Essentials using the activation code from signup.
 2. Deploy Metasploitable 2. <br>
-    - Downloaded and installed [Metasploitable 2] in VirtualBox.
+    - Downloaded and installed [Metasploitable 2](https://sourceforge.net/projects/metasploitable/) in VirtualBox.
     - Signed in using default credentials (msfadmin/msfadmin).
     - Did *ifconfig* to get IP of Metasploitable 2 virtual machine.
     - Ran a ping command test to verify connection between the two devices.
