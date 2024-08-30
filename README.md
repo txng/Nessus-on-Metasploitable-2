@@ -16,7 +16,7 @@ The project includes: <br>
 
 ## Getting Started
 1. Set up Kali Linux and install Nessus. <br>
-  - Downlaoded and installed [Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) in [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+  - Downloaded and installed [Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) in [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
   - Signed up for [Nusses Essentials](https://www.tenable.com/products/nessus/nessus-essentials).
     -  Opened Terminal in Kali Linux and installed Nessus using the following [guide](https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm).
     -  Started Nessus using the command 'sudo service nessusd start'.
