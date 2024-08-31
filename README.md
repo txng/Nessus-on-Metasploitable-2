@@ -64,4 +64,6 @@ The project includes: <br>
     
      ![active](images/active.png) <br>
     <br>
-    
+
+## Overall Learning Experience
+Using Nessus Essentials with Metasploitable 2 provided me with practical experience in vulnerability scanning and analysis, helping me understand how to configure scans, interpret results, and prioritize risks. It allowed me to get hands-on exposure to common vulnerabilities and security best practices within a controlled environment. This experience also enhanced my ability to identify potential threats and apply remediation strategies, key skills for effective threat detection and incident response in a SOC analyst role. Additionally, it familiarized me with using security tools and understanding the broader context of security posture, crucial for monitoring and defending against cyber threats.
