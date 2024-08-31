@@ -41,10 +41,12 @@ The project includes: <br>
     <br>
 4. Review the scan results to identify potential security issues. <br>
     - The first scan from the Host Discovery scan resulted in 2 Vulnerabilities. One of them was 'Nessus Scan Information' and it showed the information about the scan itself. The other one was 'Ping the remote host' which Nessus determines if a remote host is active using ARP, ICMP, TCP, or UDP pings. <br>
+    
     ![port](images/port.png) <br>
     ![host](images/host.png) <br>
       <br>
     - The second scan results from the Basic Network scan that I did not include credentials to had 67 Vulnerabilities. This scan was different in that it had different severity levels from Critical, High, Medium, Low, Mixed, and Info. It also had CVSS (Common Vulnerability Scoring System) values that ranges from 10 (highest) to 1 (lowest). There was 4 Critical Vulnerabilities with a CVSS score of 10. It also had VPR (Vulnerability Priority Rating) values that has the same range as CVSS but focuses more on practical risk and urgency. In the scan, the highest was a value of 9.0 with a name of 'Apache Tomcat AJP Connector Request Injection (Ghostcat)'. When I clicked into it to find out more, it said that a remote, unauthenticated attacker could exploit and read web applications. Another metric was the EPSS (Exploit Prediction Scoring System) that predicts the likelihood that a vulnerability will be exploited. This has a range of 0 to 1 with a higher value indicating a greater likelihood of exploitation. <br>
+    
     ![uncred](images/port.png) <br>
     ![CVSS](images/CVSS.png) <br>
     ![VPR](images/VPR.png) <br>
