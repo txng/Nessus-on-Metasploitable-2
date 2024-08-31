@@ -50,6 +50,7 @@ The project includes: <br>
     ![VPR](images/VPR.png) <br>
     <br>
     - The third scan was also a Basic Network scan but this time used Credentials. It resulted in a lot more vulnerabilities and more remediations compared to the Uncredentialed scan. When I clicked into it, I sorted each metric from high to low and noticed that there is a vulnerability with a CVSS of 9.8, VPR of 9.4 and EPSS of 0.9737 named 'Bash Remote Code Execution (Shellshock)'. That means this vulnerability has a high threat intensity and a high likelihood of it being exploited. The description of the vulnerability is that a remote host is running a version of Bash that is vulnerable to command injection and could remotely execute arbitrary code. <br>
+    
     ![cred](images/cred.png) <br>
     ![high](images/high.png) <br>
     <br>
