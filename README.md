@@ -61,6 +61,7 @@ The project includes: <br>
     ![malware](images/malware.png) <br>
     <br>
     - The last scan I did was an Active Directory scan and it resulted in nothing. This is most likely due to the system not having an active directory set up. <br>
+    
      ![active](images/active.png) <br>
     <br>
     
