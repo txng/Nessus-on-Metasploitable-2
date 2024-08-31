@@ -56,3 +56,11 @@ The project includes: <br>
     ![cred](images/cred.png) <br>
     ![high](images/high.png) <br>
     <br>
+    - The fourth scan results from the Malware Scan didn't have much although this virtual machine is designed to have a bunch of vulnerabilities for penetration and security training. The results I found was that it had 1 critical vulnerability named 'Bind Shell Backdoor Detection' with a CVSS severity of 9.8. The description is that *a shell is listening on the remote port without any authentication required*. Since the backdoor is open on this machine, anyone can connect in and start sending commands directly. <br>
+    
+    ![malware](images/malware.png) <br>
+    <br>
+    - The last scan I did was an Active Directory scan and it resulted in nothing. This is most likely due to the system not having an active directory set up. <br>
+     ![active](images/active.png) <br>
+    <br>
+    
